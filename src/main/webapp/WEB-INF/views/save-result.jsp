@@ -17,11 +17,30 @@
 <body>
 
 <ul>
-  <li>id=${member.id}</li>
-  <li>username=${member.username}</li>
-  <li>age=${member.age}</li>
 </ul>
-<a href="/index.html ">메인</a>
+
+
+<div class="container">
+    <div class="row row-cols-1">
+        <ul>
+            <div class="col">
+                <li>id=${member.id}</li>
+            </div>
+            <div class="col">
+                <li>username=${member.username}</li>
+            </div>
+            <div class="col">
+                <li>age=${member.age}</li>
+            </div>
+            <div class="col">
+                <a href="/index.html ">메인</a>
+            </div>
+        </ul>
+
+    </div>
+</div>
+
+
 
 </body>
 </html>

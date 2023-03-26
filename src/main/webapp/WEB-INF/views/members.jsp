@@ -25,11 +25,14 @@
   </thead>
   <tbody>
   <c:forEach var="item" items="${members}">
+  <div class="container">
+
     <tr>
         <td>${item.id}</td>
         <td>${item.username}</td>
         <td>${item.age}</td>
     </tr>
+  </div>
   </c:forEach>
 
 

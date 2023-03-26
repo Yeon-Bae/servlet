@@ -15,12 +15,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- 상대경로 사용, [현재 URL이 속한 계층 경로 + /save] -->
-<form action="save" method="post">
-  username: <input type="text" name="username" />
-  age: <input type="text" name="age" />
-  <button type="submit">전송</button>
-</form>
+
+<div class="container">
+    <div class="row row-cols-1">
+        <!-- 상대경로 사용, [현재 URL이 속한 계층 경로 + /save] -->
+        <form action="save" method="post">
+        <div class="col">  username: <input type="text" name="username" />
+        </div>
+        <div class="col">  age: <input type="text" name="age" />
+        </div>
+        <div class="col">  <button type="submit">전송</button>
+        </div>
+        </form>
+    </div>
+</div>
+
 
 </body>
 </html>
